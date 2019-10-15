@@ -4523,7 +4523,7 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
 		int newMarkersAllocation = newMarker.getNumberAllocated();
 		boolean changeCheck = false;
 		List<AssignmentSubmissionMarker> markerSubmissions = findSubmissionMarkersByIdAndAssignmentId(
-				context.substring(51, context.length()), oldMarker.getMarkerUserId());
+				context.substring(19, context.length()), oldMarker.getMarkerUserId());
 		for (AssignmentSubmissionMarker assignmentSubmissionMarker : markerSubmissions) {
 			if (!assignmentSubmissionMarker.getUploaded()) {
 				assignmentSubmissionMarker.setAssignmentMarker(newMarker);
