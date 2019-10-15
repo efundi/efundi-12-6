@@ -823,6 +823,8 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
                 assignment.setAllowAttachments(existingAssignment.getAllowAttachments());
                 // for ContentReview service
                 assignment.setContentReview(existingAssignment.getContentReview());
+                // for Assignment Marking
+				assignment.setIsMarker(existingAssignment.getIsMarker());
 
                 //duplicating attachments
                 Set<String> tempAttach = existingAssignment.getAttachments();
@@ -1408,6 +1410,92 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
         return null;
     }
 
+    private Map<User, AssignmentSubmission> getUserSubmissionMap(Assignment assignment, boolean isMarker, boolean isMarkerPartialDownload) {
+		Map<User, AssignmentSubmission> userSubmissionMap = new HashMap<>();
+		if (assignment != null) {
+			
+			if (assignment.getIsMarker() && isMarker && !assignment.getIsGroup()) {
+				return getUserSubmissionMapForMarker(userSubmissionMap, assignment, isMarkerPartialDownload);
+			}
+			
+			if (assignment.getIsGroup()) {
+				// All this block does is some verification of members in the group and the submissions submitters
+				try {
+					Site site = siteService.getSite(assignment.getContext());
+					for (AssignmentSubmission submission : assignment.getSubmissions()) {
+						String gid = submission.getGroupId();
+						if (StringUtils.isNotBlank(gid)) {
+							Group group = site.getGroup(gid);
+							if (group != null) {
+								Set<String> members = group.getMembers().stream().map(Member::getUserId).collect(Collectors.toSet());
+								Set<String> submitters = submission.getSubmitters().stream().map(AssignmentSubmissionSubmitter::getSubmitter).collect(Collectors.toSet());
+								log.debug("Checking for consistency of group members [{}] to submitters [{}]", members.size(), submitters.size());
+								if (Collections.disjoint(members, submitters)) {
+									log.warn("DISJOINT group members and submitters detected");
+									List<String> submittersNotMembers = submitters.stream().filter(s -> !members.contains(s)).collect(Collectors.toList());
+									log.warn("DISJOINT there are {} submitters that are not a member of a group: {}", submittersNotMembers.size(), submittersNotMembers);
+									List<String> membersNotSubmitters = members.stream().filter(s -> !submitters.contains(s)).collect(Collectors.toList());
+									log.warn("DISJOINT there are {} members that are not a submitter: {}", membersNotSubmitters.size(), membersNotSubmitters);
+								} else {
+									log.debug("All members of group: {}::{} are submitters", gid, group.getTitle());
+								}
+							} else {
+								log.warn("Submission contains a group that doesn't exist in the site, submission: {}, group: {}", submission.getId(), gid);
+								break;
+							}
+						}
+					}
+				} catch (IdUnusedException e) {
+					log.warn("Could not fetch site for assignment: {} with a context of: {}");
+				}
+			}
+            // Simply we add every AssignmentSubmissionSubmitter to the Map, this works equally well for group submissions
+            for (AssignmentSubmission submission : assignment.getSubmissions()) {
+                for (AssignmentSubmissionSubmitter submitter : submission.getSubmitters()) {
+                    try {
+                        User user = userDirectoryService.getUser(submitter.getSubmitter());
+                        userSubmissionMap.put(user, submission);
+                    } catch (UserNotDefinedException e) {
+                        log.warn("Could not find user: {}, that is a submitter for submission: {}", submitter.getSubmitter(), submission.getId());
+                    }
+                }
+            }
+		}
+		return userSubmissionMap;
+	}
+
+	private Map<User, AssignmentSubmission> getUserSubmissionMapForMarker(Map<User, AssignmentSubmission> userSubmissionMap, Assignment assignment, boolean isMarkerPartialDownload) {
+		List<AssignmentSubmissionMarker> submissionMarkers = findSubmissionMarkersByIdAndAssignmentId(assignment.getId(), userDirectoryService.getCurrentUser().getEid());
+		AssignmentSubmission assignmentSubmission = null;
+		if (CollectionUtils.isNotEmpty(submissionMarkers)) {
+			for (AssignmentSubmissionMarker assignmentSubmissionMarker : submissionMarkers) {
+				assignmentSubmission = assignmentSubmissionMarker.getAssignmentSubmission();
+				if(isMarkerPartialDownload) {
+					if(!assignmentSubmissionMarker.getDownloaded()) {
+						for (AssignmentSubmissionSubmitter submitter : assignmentSubmission.getSubmitters()) {
+							try {
+								User user = userDirectoryService.getUser(submitter.getSubmitter());
+								userSubmissionMap.put(user, assignmentSubmission);
+							} catch (UserNotDefinedException e) {
+								log.warn("Could not find user: {}, that is a submitter for submission: {}", submitter.getSubmitter(), assignmentSubmission.getId());
+							}
+						}
+					}
+				} else {
+					for (AssignmentSubmissionSubmitter submitter : assignmentSubmission.getSubmitters()) {
+						try {
+							User user = userDirectoryService.getUser(submitter.getSubmitter());
+							userSubmissionMap.put(user, assignmentSubmission);
+						} catch (UserNotDefinedException e) {
+							log.warn("Could not find user: {}, that is a submitter for submission: {}", submitter.getSubmitter(), assignmentSubmission.getId());
+						}
+					}
+				}
+			}
+		}
+		return userSubmissionMap;
+	}
+    
     @Override
     public AssignmentSubmission getSubmission(List<AssignmentSubmission> submissions, User person) {
         throw new UnsupportedOperationException("Method is deprecated, remove");
@@ -1756,6 +1844,11 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
                                 assignment.getContext());
                         if (exceptionMessage.length() > 0) {
                             log.warn("Encountered and issue while zipping submissions for ref = {}, exception message {}", reference, exceptionMessage);
+                        } else {
+                        	updateAssignment(assignment);
+                        	if(assignment.getIsMarker() && isMarker) {
+                        		updateDownloadedSubmissionMarkers(submissions.iterator());
+                        	}
                         }
                     }
                 }
@@ -2041,6 +2134,12 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
             }
 
             if (!rvUsers.isEmpty()) {
+            	List<String> groupRefs = new ArrayList<String>();
+            	Map<User, AssignmentSubmission>  userSubmissionMap = new HashMap<User, AssignmentSubmission>();
+            	if (assignment.getIsMarker() && isMarker) {
+            		return getUserSubmissionMap(assignment, isMarker, isMarkerPartialDownload);
+            	}
+            	userSubmissionMap = getUserSubmissionMap(assignment, false, false);
                 for (User user : rvUsers) {
                     AssignmentSubmission submission = assignmentRepository.findSubmissionForUser(assignment.getId(), user.getId());
 
@@ -2768,7 +2867,7 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
             String caughtStackTrace = null;
             final StringBuilder submittersAdditionalNotesHtml = new StringBuilder();
 
-            while (submissions.hasNext()) {
+            OUTER: while (submissions.hasNext()) {
             	final AssignmentSubmission s = (AssignmentSubmission) submissions.next();
                 boolean isAnon = assignmentUsesAnonymousGrading(s.getAssignment());
                 //SAK-29314 added a new value where it's by default submitted but is marked when the user submits
@@ -3495,6 +3594,9 @@ public class AssignmentServiceImpl implements AssignmentService, EntityTransferr
 
                     // review service
                     nAssignment.setContentReview(oAssignment.getContentReview());
+                    
+                    // Assignment Marking
+                    nAssignment.setIsMarker(oAssignment.getIsMarker());
 
                     // attachments
                     Set<String> oAttachments = oAssignment.getAttachments();

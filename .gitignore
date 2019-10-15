@@ -11,3 +11,4 @@ target
 .sass-cache
 .metadata
 velocity.log
+.tern-project
