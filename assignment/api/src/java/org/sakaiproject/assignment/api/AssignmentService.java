@@ -26,7 +26,10 @@ import java.time.Instant;
 import java.util.*;
 
 import org.sakaiproject.assignment.api.model.Assignment;
+import org.sakaiproject.assignment.api.model.AssignmentMarker;
+import org.sakaiproject.assignment.api.model.AssignmentMarkerHistory;
 import org.sakaiproject.assignment.api.model.AssignmentSubmission;
+import org.sakaiproject.assignment.api.model.AssignmentSubmissionMarker;
 import org.sakaiproject.assignment.api.model.AssignmentSubmissionSubmitter;
 import org.sakaiproject.entity.api.Entity;
 import org.sakaiproject.entity.api.EntityProducer;
@@ -87,6 +90,16 @@ public interface AssignmentService extends EntityProducer {
      */
     public boolean allowAddAssignment(String context);
 
+    /**
+     * NAM-34 AND NAM-36
+     * Check permissions for marker role for an Assignment exists.
+     *
+     * @param context -
+     *                Describes the portlet context - generated with DefaultId.getChannel().
+     * @return True if the current User is allowed as marker for an Assignment, false if not.
+     */
+     public boolean allowUserMarkerDownloadAndStats(String context);
+    
     /**
      * Check permissions for updating an Assignment based on context.
      *
@@ -600,9 +613,11 @@ public interface AssignmentService extends EntityProducer {
      * @param aRef             Assignment Reference
      * @param search           The search string
      * @param contextString    Site id
+     * @param isMarker
+     * @param isMarkerPartialDownload
      * @return
      */
-    public Map<User, AssignmentSubmission> getSubmitterMap(String searchFilterOnly, String allOrOneGroup, String search, String aRef, String contextString);
+    public Map<User, AssignmentSubmission> getSubmitterMap(String searchFilterOnly, String allOrOneGroup, String search, String aRef, String contextString, boolean isMarker, boolean isMarkerPartialDownload);
 
     /**
      * @param accentedString
@@ -735,4 +750,40 @@ public interface AssignmentService extends EntityProducer {
     String getUsersLocalDateTimeString(Instant date);
 
     public List<ContentReviewResult> getContentReviewResults(AssignmentSubmission submission);
+    
+    public Set<AssignmentMarker> buildAssignmentMarkerObjSetForSite(String siteId);    
+
+	public Set<AssignmentMarker> getMarkersForAssignment(Assignment assignment);
+
+    public Boolean allowRemoveUserWithRoleIfMarkingUsed(String contextString, String role);
+
+    public Set<String> checkParticipantsForMarking(String siteId, Set<String> markersBeingAffected);
+
+    public void setMarkersForAssignmentByLoggedInUser(Assignment assignment);
+
+	void updateAssignmentMarker(AssignmentMarker assignmentMarker) throws PermissionException;
+
+	void createAssignmentMarkerHistory(AssignmentMarkerHistory assignmentMarkerHistory) throws PermissionException;
+
+	void createAssignmentSubmissionMarker(AssignmentSubmissionMarker assignmentSubmissionMarker) throws PermissionException;
+
+	void updateAssignmentSubmissionMarker(AssignmentSubmissionMarker assignmentSubmissionMarker, String submissionEvent) throws PermissionException;	
+
+	public AssignmentSubmissionMarker findSubmissionMarkerForMarkerIdAndSubmissionId(String markerId, String submissionId);
+
+	public List<AssignmentSubmissionMarker> findSubmissionMarkersByIdAndAssignmentId(String assignmentId, String markerId);
+
+	boolean markerQuotaCalculation(Assignment assignment, AssignmentSubmission submission);
+
+	boolean markerUpdateResubmission(Assignment assignment, AssignmentSubmission submission);
+
+	void reassignSubmissionsNotMarked(AssignmentMarker oldMarker, AssignmentMarker newMarker, String context);
+
+	public void quotaCalculationJob ();
+
+	public Boolean checkAssignmentMarkingForDeletedUsers(AssignmentMarker marker, Assignment assignment);
+
+	public void reassignMarkerQuotaForDeletedMarkers();
+
+	public Collection<Assignment> findAllAssignmentsForMarkerQuotaCalculation();
 }
