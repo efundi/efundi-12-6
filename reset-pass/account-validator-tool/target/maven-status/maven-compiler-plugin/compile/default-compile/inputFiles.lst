@@ -1,0 +1,10 @@
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/NewUserProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/ValidationProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/TransferMembershipsProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/params/ValidationViewParams.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/MainProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/otp/AcountValidationLocator.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/RequestAccountProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/PasswordResetProducer.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/otp/ClaimLocator.java
+/opt/efundi-12-6/reset-pass/account-validator-tool/src/java/org/sakaiproject/accountvalidator/tool/producers/BaseValidationProducer.java

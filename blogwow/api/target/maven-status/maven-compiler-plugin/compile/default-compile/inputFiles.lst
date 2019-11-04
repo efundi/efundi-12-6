@@ -1,0 +1,13 @@
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/CommentLogic.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/entity/BlogGroupEntityProvider.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/entity/BlogRssEntityProvider.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/model/BlogWowBlog.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/constants/BlogConstants.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/entity/BlogGroupRssEntityProvider.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/BlogLogic.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/model/BlogWowComment.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/ExternalLogic.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/entity/BlogEntryEntityProvider.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/model/BlogWowEntry.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/EntryLogic.java
+/opt/efundi-12-6/blogwow/api/src/java/org/sakaiproject/blogwow/logic/entity/BlogEntityProvider.java

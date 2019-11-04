@@ -1,0 +1,11 @@
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/dao/BlogWowDao.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/entity/BlogGroupRssEntityProviderImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/entity/BlogEntryEntityProviderImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/entity/BlogRssEntityProviderImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/CommentLogicImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/dao/BlogWowDaoImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/entity/BlogEntityProviderImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/EntryLogicImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/ExternalLogicImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/entity/BlogGroupEntityProviderImpl.java
+/opt/efundi-12-6/blogwow/impl/src/java/org/sakaiproject/blogwow/logic/BlogLogicImpl.java

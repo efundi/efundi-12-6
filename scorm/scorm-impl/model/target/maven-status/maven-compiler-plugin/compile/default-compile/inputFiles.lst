@@ -1,0 +1,11 @@
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/ContentPackageDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/SeqActivityDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/ContentPackageManifestDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/sakai/MockLearnerDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/DataManagerDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/ActivityTreeHolderDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/sakai/SakaiLearnerDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/sakai/SakaiActivityTreeDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/AttemptDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/hibernate/SeqActivityTreeDaoImpl.java
+/opt/efundi-12-6/scorm/scorm-impl/model/src/java/org/sakaiproject/scorm/dao/standalone/StandaloneActivityTreeDaoImpl.java

@@ -1,0 +1,16 @@
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/api/ZipAware.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/api/ImportMetadataService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/HasSequence.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/Importable.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/api/ImportMetadata.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/cover/ImportService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/ImportDataSource.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/SakaiArchive.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/ImportFileParser.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/api/ArchiveService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/cover/ImportMetadataService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/HandlesImportable.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/IMSResourceTranslator.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/archive/cover/ArchiveService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/ImportService.java
+/opt/efundi-12-6/common/archive-api/src/main/java/org/sakaiproject/importer/api/ResetOnCloseInputStream.java

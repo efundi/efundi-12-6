@@ -1,0 +1,11 @@
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/ParticipationRecordImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/TeachingAssistantRecordImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/MeetingImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/facade/SakaiUtil.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/EnrollmentRecordImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/SectionEnrollmentsImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/CourseSectionImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/UserImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/GroupParticipantImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/CourseImpl.java
+/opt/efundi-12-6/edu-services/sections-service/sections-impl/sakai/model/src/java/org/sakaiproject/component/section/sakai/InstructorRecordImpl.java

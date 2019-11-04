@@ -1,0 +1,11 @@
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/utils/HierarchyUtils.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyService.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/dao/model/HierarchyNodePermission.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyNodeWriter.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/dao/model/HierarchyNodeMetaData.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/model/HierarchyNode.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyPermissions.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyProvider.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyTokens.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/HierarchyNodeReader.java
+/opt/efundi-12-6/hierarchy/api/src/java/org/sakaiproject/hierarchy/dao/model/HierarchyPersistentNode.java

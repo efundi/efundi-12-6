@@ -28,7 +28,8 @@ sakai.editor.editors.ckeditor = sakai.editor.editors.ckeditor || {} ;
 
 //get path of directory ckeditor
 var basePath = "/library/editor/ckextraplugins/";
-var webJars = "/library/webjars/"
+var webJars = "/library/webjars/";
+var css = "/library/editor/";
 
 // Please note that no more parameters should be added to this signature.
 // The config object allows for name-based config options to be passed.
@@ -273,7 +274,8 @@ sakai.editor.editors.ckeditor.launch = function(targetId, config, w, h) {
         //ckconfig.atd_rpc='//localhost/proxy/spellcheck';
         //ckconfig.extraPlugins+="atd-ckeditor,";
         //ckconfig.contentsCss = [basePath+'atd-ckeditor/atd.css'];
-
+        ckconfig.contentsCss = [(css+'bootstrap/3.3.7/css/bootstrap.min.css')];
+        ckconfig.contentsCss = [(css+'css/default.css')];
         ckconfig.extraPlugins+="${ckeditor-extra-plugins}${ckeditor-a11y-extra-plugins}";
 
         // Load FontAwesome CSS in case a user wants to manually add FA markup

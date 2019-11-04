@@ -1,0 +1,6 @@
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/services/state/PortletStateTest.java
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/services/state/EnhancedPortletStateEncoderTest.java
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/services/state/Base64RecoderTest.java
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/services/state/SimplePortletStateEncoderTest.java
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/services/state/BasicWebRecoderTest.java
+/opt/efundi-12-6/portal/portal-render-impl/impl/src/test/org/sakaiproject/portal/render/portlet/PortletToolRenderServiceTest.java

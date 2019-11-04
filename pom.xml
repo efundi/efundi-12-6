@@ -95,7 +95,9 @@
                 <module>reset-pass</module>
                 <module>roster2</module>
                 <module>rsf</module>
-                <!--<module>rubrics</module>-->
+                
+                <module>blogwow</module>
+                <module>scorm</module>
                 <module>rwiki</module>
                 <module>tags</module>
                 <module>samigo</module>
@@ -179,7 +181,9 @@
                 <module>reset-pass</module>
                 <module>roster2</module>
                 <module>rss</module>
-                <!--<module>rubrics</module>-->
+                
+                <module>blogwow</module>
+                <module>scorm</module>
                 <module>rwiki</module>
                 <module>tags</module>
                 <module>samigo</module>

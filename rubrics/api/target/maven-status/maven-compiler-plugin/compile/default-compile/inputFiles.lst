@@ -1,0 +1,6 @@
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/logic/api/RubricsService.java
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/model/ToolItemRubricAssociation.java
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/model/Rubric.java
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/model/Evaluation.java
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/model/Criterion.java
+/opt/efundi-12-6/rubrics/api/src/java/org/sakaiproject/rubrics/model/Rating.java

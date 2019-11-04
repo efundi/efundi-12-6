@@ -1,0 +1,9 @@
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/advisor/CollectingPermissionsAdvisor.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/service/OAuthAdminServiceImpl.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/dao/MemoryConsumerDao.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/advisor/LimitedPermissionsAdvisor.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/service/Util.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/dao/ServerConfigConsumerDao.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/dao/MemoryAccessorDao.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/service/OAuthServiceImpl.java
+/opt/efundi-12-6/oauth/impl/src/java/org/sakaiproject/oauth/service/OAuthHttpServiceImpl.java

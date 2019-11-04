@@ -1,0 +1,15 @@
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/EntityTaggingService.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/dao/EntityTagApplication.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/oldentity/EntityBrokerEntity.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/dao/EntityProperty.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/event/EventReceiverCoordinator.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/dao/EntityBrokerDao.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/EntityBrokerManagerImpl.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/dao/impl/EntityBrokerDaoImpl.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/devhelper/DeveloperHelperServiceImpl.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/EntityBrokerCoreServiceManager.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/entityprovider/EntityProviderManagerImpl.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/oldentity/EntityBrokerEntityProducer.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/EntityBrokerImpl.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/external/SakaiExternalIntegrationProvider.java
+/opt/efundi-12-6/entitybroker/impl/src/java/org/sakaiproject/entitybroker/impl/EntityMetaPropertiesService.java

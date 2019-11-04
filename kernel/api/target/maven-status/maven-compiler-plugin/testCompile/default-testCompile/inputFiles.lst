@@ -1,0 +1,4 @@
+/opt/efundi-12-6/kernel/api/src/test/java/org/sakaiproject/util/TrustedLoginTokenTest.java
+/opt/efundi-12-6/kernel/api/src/test/java/org/sakaiproject/exception/PermissionExceptionTest.java
+/opt/efundi-12-6/kernel/api/src/test/java/org/sakaiproject/util/ToolListenerTest.java
+/opt/efundi-12-6/kernel/api/src/test/java/org/sakaiproject/util/RequestFilterTest.java

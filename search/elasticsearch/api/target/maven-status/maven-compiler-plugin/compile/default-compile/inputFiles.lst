@@ -1,0 +1,4 @@
+/opt/efundi-12-6/search/elasticsearch/api/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchIndexBuilderEventRegistrar.java
+/opt/efundi-12-6/search/elasticsearch/api/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchConstants.java
+/opt/efundi-12-6/search/elasticsearch/api/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchIndexBuilder.java
+/opt/efundi-12-6/search/elasticsearch/api/src/java/org/sakaiproject/search/elasticsearch/filter/SearchItemFilter.java

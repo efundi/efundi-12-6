@@ -1,0 +1,6 @@
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiLocaleNameProvider.java
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiDecimalFormatSymbolsProvider.java
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiLocaleServiceProviderUtil.java
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiNumberFormatProvider.java
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiDateFormatProvider.java
+/opt/efundi-12-6/endorsed/i18n/src/main/java/org/sakaiproject/endorsed/i18n/spi/SakaiDateFormatSymbolsProvider.java

@@ -1,0 +1,9 @@
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityDescriptionManager.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/caps/BatchProvider.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityHandlerImpl.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityRedirectsManager.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityRESTProviderBase.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityBatchHandler.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityBrokerRESTServiceManager.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityActionsManager.java
+/opt/efundi-12-6/entitybroker/rest/src/java/org/sakaiproject/entitybroker/rest/EntityEncodingManager.java

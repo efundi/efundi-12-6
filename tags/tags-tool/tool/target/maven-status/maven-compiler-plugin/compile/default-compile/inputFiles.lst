@@ -1,0 +1,11 @@
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/forms/TagCollectionForm.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/IndexHandler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/TagCollectionsHandler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/BaseHandler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/TagServiceServlet.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/forms/BaseForm.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/forms/TagForm.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/Handler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/TagsHandler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/CrudHandler.java
+/opt/efundi-12-6/tags/tags-tool/tool/src/java/org/sakaiproject/tags/tool/handlers/TagsInTagCollectionsHandler.java

@@ -1,0 +1,6 @@
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/entity/impl/ValidationEntityProviderImpl.java
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/impl/jobs/CheckAccountsJob.java
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/logic/impl/ValidationLogicImpl.java
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/logic/dao/ValidationDao.java
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/dao/impl/ValidationLogicDao.java
+/opt/efundi-12-6/reset-pass/account-validator-impl/src/java/org/sakaiproject/accountvalidator/impl/jobs/CheckValidations.java

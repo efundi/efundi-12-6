@@ -1,0 +1,12 @@
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterMember.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterGroup.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/tool/entityprovider/RosterPOIEntityProvider.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterFunctions.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/tool/RosterTool.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterMemberComparator.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterData.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/tool/entityprovider/RosterSiteEntityProvider.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/SakaiProxy.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterEnrollment.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/impl/SakaiProxyImpl.java
+/opt/efundi-12-6/roster2/src/java/org/sakaiproject/roster/api/RosterSite.java

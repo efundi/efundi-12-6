@@ -1,0 +1,10 @@
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityProviderManagerImplTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityBrokerManagerTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityTaggingServiceTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityProviderMethodStoreImplTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/dao/EntityPropertyTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityMetaPropertiesServiceTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/ServiceTestManager.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/EntityBrokerTransactionalTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/dao/EntityBrokerDaoImplTest.java
+/opt/efundi-12-6/entitybroker/impl/src/test/org/sakaiproject/entitybroker/impl/data/TestDataPreload.java

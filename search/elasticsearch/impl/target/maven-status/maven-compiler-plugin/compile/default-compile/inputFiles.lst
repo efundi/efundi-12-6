@@ -1,0 +1,5 @@
+/opt/efundi-12-6/search/elasticsearch/impl/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchService.java
+/opt/efundi-12-6/search/elasticsearch/impl/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchIndexBuilderAutoRegistrar.java
+/opt/efundi-12-6/search/elasticsearch/impl/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchList.java
+/opt/efundi-12-6/search/elasticsearch/impl/src/java/org/sakaiproject/search/elasticsearch/ElasticSearchResult.java
+/opt/efundi-12-6/search/elasticsearch/impl/src/java/org/sakaiproject/search/elasticsearch/SearchNotificationAction.java
