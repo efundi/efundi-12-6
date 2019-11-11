@@ -1,9 +1,0 @@
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSqlMsSql.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSql.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/SimpleSiteContentAdvisorProvider.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSqlHSql.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSqlMySql.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSqlOracle.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandlerSqlDefault.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/cm/CourseManagementSiteContentAdvisor.java
-/opt/efundi-12-6/content/content-impl-providers/impl/src/java/org/sakaiproject/content/providers/BaseEventDelayHandler.java

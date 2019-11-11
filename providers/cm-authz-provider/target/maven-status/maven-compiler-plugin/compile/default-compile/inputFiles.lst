@@ -1,6 +1,0 @@
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/CourseSetRoleResolver.java
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/CourseManagementGroupProvider.java
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/SectionRoleResolver.java
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/BaseRoleResolver.java
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/CourseOfferingRoleResolver.java
-/opt/efundi-12-6/providers/cm-authz-provider/src/java/org/sakaiproject/coursemanagement/impl/provider/RoleResolver.java

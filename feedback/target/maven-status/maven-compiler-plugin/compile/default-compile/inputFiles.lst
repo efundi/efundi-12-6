@@ -1,7 +1,0 @@
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/util/Constants.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/tool/FeedbackTool.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/exception/AttachmentsTooBigException.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/util/SakaiProxy.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/tool/entityproviders/FeedbackEntityProvider.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/db/Database.java
-/opt/efundi-12-6/feedback/src/java/org/sakaiproject/feedback/util/FileItemDataSource.java

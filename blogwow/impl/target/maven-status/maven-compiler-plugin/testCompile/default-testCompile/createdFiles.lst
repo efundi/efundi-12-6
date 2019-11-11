@@ -1,9 +1,0 @@
-org/sakaiproject/blogwow/logic/EntryLogicImplTest.class
-org/sakaiproject/blogwow/logic/stubs/ExternalLogicStub.class
-org/sakaiproject/blogwow/logic/stubs/TSite.class
-org/sakaiproject/blogwow/logic/stubs/TUser.class
-org/sakaiproject/blogwow/logic/test/TestDataPreload.class
-org/sakaiproject/blogwow/dao/BlogWowDaoImplTest.class
-org/sakaiproject/blogwow/logic/stubs/TPlacement.class
-org/sakaiproject/blogwow/logic/CommentLogicImplTest.class
-org/sakaiproject/blogwow/logic/BlogLogicImplTest.class

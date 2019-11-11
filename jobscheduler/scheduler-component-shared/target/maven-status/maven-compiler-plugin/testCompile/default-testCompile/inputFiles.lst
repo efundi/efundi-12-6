@@ -1,8 +1,0 @@
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/events/hibernate/TestTriggerEventManagerHibernateImpl.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/jobs/LongTestJob.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/ContextMappingConfiguration.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/ContextMappingDAOTest.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/ScheduledInvocationTest.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/jobs/TestJob.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/jobs/TestJob2.java
-/opt/efundi-12-6/jobscheduler/scheduler-component-shared/src/test/java/org/sakaiproject/component/app/scheduler/jobs/TestBeanJob.java

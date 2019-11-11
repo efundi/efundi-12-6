@@ -1,3 +1,0 @@
-amazon.com http://amzn.com/
-#Preistester http://www.preistester.de/cgi-bin/pt/buchs.pl?query=profi&isbn=
-#Book-Butler http://book-butler.com/?evt=go&in=

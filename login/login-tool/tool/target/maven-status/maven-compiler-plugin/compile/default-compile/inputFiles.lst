@@ -1,8 +1,0 @@
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/filter/UpnSamlFilter.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/tool/SkinnableLogin.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/springframework/SafeDelegatingFilterProxy.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/filter/SakaiLogoutSamlFilter.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/tool/ContainerLogin.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/filter/EppnSamlFilter.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/filter/SakaiCasAuthenticationFilter.java
-/opt/efundi-12-6/login/login-tool/tool/src/java/org/sakaiproject/login/tool/ContainerLogout.java

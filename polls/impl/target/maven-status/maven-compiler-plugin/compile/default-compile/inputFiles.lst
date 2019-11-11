@@ -1,6 +1,0 @@
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/dao/PollDao.java
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/service/impl/PollVoteManagerImpl.java
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/dao/impl/PollDoaImpl.java
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/logic/impl/ExternalLogicImpl.java
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/logic/impl/InvalidEmailTemplateException.java
-/opt/efundi-12-6/polls/impl/src/java/org/sakaiproject/poll/service/impl/PollListManagerImpl.java

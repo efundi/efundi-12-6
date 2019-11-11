@@ -1,4 +1,0 @@
-/opt/efundi-12-6/jobscheduler/scheduler-events-model/src/java/org/sakaiproject/scheduler/events/hibernate/ContextMapping.java
-/opt/efundi-12-6/jobscheduler/scheduler-events-model/src/java/org/sakaiproject/scheduler/events/hibernate/TriggerEventEnumUserType.java
-/opt/efundi-12-6/jobscheduler/scheduler-events-model/src/java/org/sakaiproject/scheduler/events/hibernate/TriggerEventHibernateImpl.java
-/opt/efundi-12-6/jobscheduler/scheduler-events-model/src/java/org/sakaiproject/scheduler/events/hibernate/DelayedInvocation.java
