@@ -1,8 +1,0 @@
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/ChatMessage.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/MessageDateString.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/ChatChannel.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/ChatManager.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/SimpleUser.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/DeleteMessage.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/TransferableChatMessage.java
-/opt/efundi-12-6/chat/chat-api/api/src/java/org/sakaiproject/chat2/model/ChatFunctions.java

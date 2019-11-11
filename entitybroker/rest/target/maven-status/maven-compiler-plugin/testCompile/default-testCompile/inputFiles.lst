@@ -1,9 +1,0 @@
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityHandlerImplTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityBrokerImplTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityRedirectsManagerTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/jetty/MockDirectServlet.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityDescriptionManagerTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityEncodingManagerTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/EntityActionsManagerTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/jetty/EntityBrokerServletTest.java
-/opt/efundi-12-6/entitybroker/rest/src/test/org/sakaiproject/entitybroker/rest/ServiceTestManager.java

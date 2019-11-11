@@ -1,6 +1,0 @@
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/service/external/ExternalLogic.java
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/model/EmailTemplate.java
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/service/EmailTemplateService.java
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/model/RenderedTemplate.java
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/model/EmailTemplateLocaleUsers.java
-/opt/efundi-12-6/emailtemplateservice/api/src/java/org/sakaiproject/emailtemplateservice/logic/EmailTemplateServiceLogic.java
