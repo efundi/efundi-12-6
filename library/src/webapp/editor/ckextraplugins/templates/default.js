@@ -1,93 +1,418 @@
 /*
-Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.html or http://ckeditor.com/license
-*/
+ * Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.html or http://ckeditor.com/license
+ * */
 CKEDITOR.addTemplates('customtemplates', {imagesPath: CKEDITOR.getUrl(CKEDITOR.basePath.substr(0, CKEDITOR.basePath.indexOf("ckeditor/"))+"../editor/ckextraplugins/" + 'templates/images/'), templates: [
-    {
-        title:'<span class="fa fa-map fa-3x template-icon" style="color: #444;"></span>Syllabus',
-        description:'A template for a course syllabus.',
-        html:'<h1>Course Syllabus &ndash; SFL 310</h1><p>Long Title of Course (E.g. Introduction to Philosophy)</p><p>(Optional: Year and term)</p><h3>&nbsp;</h3><h3><span class="fa fa-group"></span>&nbsp;Class Meeting Information</h3><p>Class Day/Time: M-W-F 9:30 - 10:20 AM<br />Location: Miriam Hall 011</p><p>&nbsp;</p><h3><span class="fa fa-user"></span>&nbsp;Instructor Information</h3><p>Instructor: Your Name<br />\n' +
-        'Office: Miriam Hall 011<br />Email: youremail@udayton.edu<br />Phone: 555-5555<br />Office Hours: Tuesday 10:00 - 11:30 AM</p><p>&nbsp;</p><h3><span class="fa fa-file"></span>&nbsp;Course Description</h3><p>(Use catalog description with any additional details you would like to provide.)</p><p>Prerequisites: (List here)</p><p>&nbsp;</p><h3><span class="fa fa-list-alt"></span>&nbsp;Course Learning Objectives</h3><p>Upon completion of this course students will be able to:</p><ul><li>Objective one</li><li>Objective two</li><li>Objective three</li><li>etc.</li></ul><p>&nbsp;</p><h3><span class="fa fa-book"></span>&nbsp;Required Text and Supplementary Materials</h3><h4>Textbook&nbsp;</h4><p>Boettcher, Judith V., et al. The Online Teaching Survival Guide: Simple and Practical Pedagogical Tips. Jossey-Bass, 2016.&nbsp;ISBN-13: 978-1119147688</p><h4>Technology Requirements</h4><p>This course requires the use of a computer that complies with the hardware specifications that were communicated to you by your college. This course will require your use of the latest version of the Microsoft Office software, which is available for you to download at no additional cost at <a href="https://software.udayton.edu/" rel="noopener" target="_blank">UD&#39;s Software page</a>. It is your responsibility to ensure you have a working computer with the required software installed and functional for this course.&nbsp;</p><p>&nbsp;</p><h3><span class="fa fa-cubes"></span>&nbsp;How This Course Will Work</h3><p>(Use this space to generally describe the activities of the course. E.g., discussions, quizzes, student presentations, readings, etc.)</p><h4>Class Protocol</h4><p>(Insert your expectations for participation, attendance, arrival times, behavior, safety, cell phone use; etc. See example below.)</p><p>All electronic devices including cell phones must be turned off and are not to be visible at any time during class unless specifically directed by the instructor.</p><p>Computers and mobile devices&nbsp;may be used in class for taking notes and specified in-class activities, not for instant messaging, email or other distractions.</p><p>All email messages will be sent to you via your UD Gmail, so you should be in the habit of checking that account every day, or you should ensure that UD Gmail forwards messages to another account of your choice. To verify your email address, please contact the <a href="https://udayton.edu/udit/" rel="noopener" target="_blank">IT Service Center</a>.</p><p>In addition, as a student in this class, you are expected to:</p><ul><li>Take ownership and responsibility for the conduct of the class.</li><li>Always treat class members with respect.</li><li>Be considerate and limit materials or actions that others might find distracting, such as conversations, work from other classes, newspapers, video games, etc.</li><li>Be prepared to contribute to group and class discussions in a courteous, substantive, and thoughtful manner.</li><li>Bring necessary materials to every class.</li></ul><p>Proper Internet etiquette practices should be followed, including&nbsp;not sending messages in ALL CAPS or with too many exclamation points.</p><h4>Isidore&nbsp;</h4><p>Course materials such as the syllabus, major assignments, and handouts can be found on the course site located on UD&#39;s learning management system, <a href="https://isidore.udayton.edu" rel="noopener" target="_blank">Isidore</a>. You should check this site regularly for updates to the course. If you have any problems accessing the site, please contact the <a href="http://udayton.edu/udit/" rel="noopener" target="_blank">IT Service Center</a> immediately.</p><p>&nbsp;</p><h3><span class="fa fa-check-square"></span>&nbsp;Grading Policy</h3><p>Your final class numerical average will be calculated based on:</p><ul><li>Assignments (4 worth 100 pts each)&nbsp;&nbsp; &nbsp;20%</li><li>Quizzes (6 worth 25 points each)&nbsp;&nbsp; &nbsp;30%</li><li>Participation in Discussions (6 wks &ndash; 10 pts per week)&nbsp;&nbsp; &nbsp;20%</li><li>Social Media Class Project (1 &ndash; worth 100 pts)&nbsp;&nbsp; &nbsp;30%</li></ul><p>Total&nbsp;&nbsp; &nbsp;100%</p><p>Final course letter grades will be assigned as follows:</p><p>A&nbsp;&nbsp; &nbsp;93 - 100%<br />A-&nbsp;&nbsp; &nbsp;90 - 92.99%<br />B+&nbsp;&nbsp; &nbsp;87 - 89.99%<br />B&nbsp;&nbsp; &nbsp;83 - 86.99%<br />B-&nbsp;&nbsp; &nbsp;80 - 82.99%<br />C&nbsp;&nbsp; &nbsp;70 &ndash; 79.99%<br />F&nbsp;&nbsp; &nbsp;69.99% or lower</p><h4>Makeup / Late Work</h4><p>Students are expected to complete course activities&nbsp;by the&nbsp;assigned due dates. If for any reason a student cannot complete work on-time, he or she must notify the instructor well in advance of the due date. &nbsp;Exceptions will only be granted when extenuating circumstances arise. &nbsp;There is no credit given for late work without prior authorization. &nbsp;If an emergency arises, please contact the instructor by email or phone.</p><h4>Participation</h4><p>(Describe your participation expectations and how students will be graded.)</p><p>&nbsp;</p><h3><span class="fa fa-address-card"></span>&nbsp;Student Support</h3><h4>Learning Support</h4><p>The University of Dayton&#39;s <a href="https://udayton.edu/ltc/learningresources/index.php" rel="noopener" target="_blank">Office of Learning Resources (OLR)</a> is a free service for all students seeking to perform their best academically. OLR offers a variety of personalized and structured resources that help students achieve academic excellence, such as tutoring, academic coaching (test taking strategies, time management counseling, and study techniques), Supplemental Instruction (SI), services for international students, and writing support. OLR is located on the ground floor of Roesch Library.</p><h4>Disability Services</h4><p>If you anticipate or experience physical or academic barriers based on disability, or if you have been provided and Accommodation Letter by OLR, please inform your instructor&nbsp;so that options can be discussed. &nbsp;You are also welcome to contact the <a href="https://udayton.edu/ltc/learningresources/index.php" rel="noopener" target="_blank">Office of Learning Resources (OLR)</a> to discuss reasonable accommodations. Please contact OLR or stop by in the LTC, room 023 Roesch Library.&nbsp; If you need assistance accessing print material including textbooks and electronic material such as PDF documents, please review the <a href="https://udayton.edu/ltc/learningresources/disability/index.php" rel="noopener" target="_blank">OLR website information</a> about alternative formats under Disability Resources.</p><h4>The Knowledge Hub</h4><p>The Write Place and Roesch Library&#39;s reference services are available in the <a href="https://udayton.edu/libraries/help.php" rel="noopener" target="_blank">Knowledge Hub</a> on the first floor of Roesch Library. In the Knowledge Hub, all UD students can receive free research and writing assistance on any assignment, at any stage of the writing process. No appointments are necessary. You can also submit your written assignment through the <a href="https://ewiki.udayton.edu/isidore/Write_Place%27s_Digital_Drop-Off" rel="noopener" target="_blank">Write Place&#39;s Digital Drop-Off</a>.</p><h4>Technical Support</h4><p>For general computer, software, and username and password&nbsp;issues, please contact the <a href="http://udayton.edu/udit/" rel="noopener" target="_blank">IT Service Center</a>.&nbsp;&nbsp;</p><p>&nbsp;</p><h3><span class="fa fa-mortar-board"></span>&nbsp;University Policies</h3><h4>Academic Honesty</h4><p>You are encouraged to talk with your classmates about the readings and ideas brought up in class. In all assignments to be graded as individual work, you are expected to do your own&nbsp;work. Your instructor has tools available to check your work for plagiarism. If you need help avoiding plagiarism, please read through the library&#39;s <a href="http://libguides.udayton.edu/avoidplagiarism" rel="noopener" target="_blank">plagiarism resources</a>.</p><p>For complete university policies concerning academic honesty, see the <a href="http://catalog.udayton.edu/undergraduate/generalinformation/academicinformation/theacademichonorcode/" rel="noopener" target="_blank">University&#39;s Academic Honor Code</a>.</p><h4>Dropping the Course</h4><p>You are responsible for understanding the university&rsquo;s policies and procedures regarding withdrawing from courses. You should also be aware of the current deadlines and penalties for dropping classes. Information on withdrawal from courses is available by checking the Academic Calendar on the university&#39;s <a href="https://udayton.edu/calendar/" rel="noopener" target="_blank">main calendar page</a>. You may also want to speak with your academic advisor or the Dean&#39;s Office from your college or school.</p><h4>Student Evaluation of Teaching</h4><p>The university will ask for your anonymous feedback regarding instruction in this course through the online <a href="https://udayton.edu/ltc/set/faculty/index.php" rel="noopener" target="_blank">Student Evaluation of Teaching (SET)</a> as your candid, respectful opinions and constructive suggestions have an impact on the quality of teaching at UD. &nbsp;Instructions for how to complete SET will be sent to your UD email account toward the end of the semester.</p><h4>Intellectual Property Statement</h4><p>The materials shared with you during this course are authored by and owned by the instructor, the department, the school and/or the book publisher. Copyright laws must be respected in using these materials. For example, unless authorized to do so, do not share course materials with anyone outside the course.</p><h4>Student Success Network</h4><p>The University of Dayton makes student success a priority. The <a href="https://www.udayton.edu/success/student_success_network/index.php" rel="noopener" target="_blank">Student Success Network (SSN)</a> will be used in this course, as an early identification and intervention system, designed to enable students&rsquo; academic success and graduation. If the instructor notices that students are struggling with issues such as attendance, class participation, or assignment/test performance, he or she may choose to send notification through SSN in order to put students in touch with appropriate campus resources. These referrals are designed to maximize students&#39; chances for success at the University, not as punishment. Please respond to any communications received from the instructor, Academic Advisor, Dean&rsquo;s Office, or other campus offices regarding academic progress in this course.</p><h4>Religious Accommodations</h4><p>The University of Dayton strives for an inclusive climate and welcomes students from all backgrounds, faiths and experiences. If religious observance impedes your ability to participate fully in classroom activities or a principal holiday from your religious tradition occurs during the semester and conflicts with class meetings or activities, please make the instructor aware of this immediately to determine if a reasonable accommodation is possible.</p><p>&nbsp;</p><h3><span class="fa fa-calendar"></span>&nbsp;Schedule</h3><p>(Optional: Enter your course schedule here. In some cases it&#39;s easiest to copy and paste from Word. You also may consider putting the schedule in a separate place. Students also like it if you use the Isidore Calendar tool.)</p><p>&nbsp;</p><p>&nbsp;</p>'
-    },
-    {
-        title:'<span class="fa fa-id-card fa-3x template-icon" style="color:#3177b5;"></span>Instructor Insight Panel',
-        description:'Panel box with photo where you can share a personal message.',
-        html:'<style type="text/css">*.panel-insight-speaker { display: block; max-width: 130.0px; max-height: 130.0px; width: auto; height: auto; margin-right: 10.0px; float: left; } *.panel-insight-title { margin: 0 0 0 0; } </style> <div class="panel panel-primary"> <div class="panel-heading"> <h3 class="panel-insight-title">Professor Last Name&#39;s Insight</h3>  <p>Subtitle</p> </div>  <div class="panel-body"><img alt="Instructors Photo" class="panel-insight-speaker" src="https://isidore.udayton.edu/access/content/public/images/CKEditor%20Templates/genericProf.png" /><span class="fa fa-quote-left"></span> Replace this text, the title, the subtitle, and the picture to create a personal message you would like to communicate to your students. It should be no more than a short paragraph or two. Contact E-Learning if you would like to learn best practices for using this element. <span class="fa fa-quote-right"></span><span></span></div>  <div class="panel-body"><em>Here&#39;s an extra bit of instruction can can optionally add.</em></div> </div>'
-    },
-    {
-        title:'<span class="fa fa-comment fa-3x template-icon" style="color:#90b193;"></span>Instructor Insight Conversation',
-        description:'Text message styled box with photo on the left.',
-        html:'<style type="text/css">*.insight-section ul li { list-style: none; margin-top: 10.0px; } *.insight-section ul { padding: 0.0px; } *.left-insight img, *.right-insight img { width: 70.0px; height: 70.0px; float: left; margin: 0.0px 5.0px; border-radius: 50.0%; } *.right-insight img { float: right; } *.left-insight, *.right-insight { overflow: hidden; } *.left-insight p, *.right-insight p { background-color: rgb(200,230,201); padding: 10.0px; color: black; border-radius: 5.0px; float: left; width: 60.0%; margin-bottom: 20.0px; margin-left: 0.0px; } *.right-insight p { float: right; background-color: rgb(153,194,255); color: black; margin-right: 2.0px; } </style> <div class="insight-section"> <ul> <li> <div class="left-insight"><img alt="Instructor speaking" src="https://isidore.udayton.edu/access/content/public/images/CKEditor%20Templates/genericProf.png" /> <p>Replace this text and photo to create a casual personal message you would like to communicate to your students. It should be no more than a short paragraph or two. Contact E-Learning if you would like to learn best practices for using this element.</p> </div> </li> </ul> </div>'
-    },
-    {
-        title:'<span class="fa fa-comments fa-3x template-icon" style="color:#9bbeff;"></span>Instructor Insight Reply',
-        description:'Text message styled box with photo on the right.',
-        html:'<style type="text/css">*.insight-section ul li { list-style: none; margin-top: 10.0px; } *.insight-section ul { padding: 0.0px; } *.left-insight img, *.right-insight img { width: 70.0px; height: 70.0px; float: left; margin: 0.0px 5.0px; border-radius: 50.0%; } *.right-insight img { float: right; } *.left-insight, *.right-insight { overflow: hidden; } *.left-insight p, *.right-insight p { background-color: rgb(128,255,138); padding: 10.0px; color: black; border-radius: 5.0px; float: left; width: 60.0%; margin-bottom: 20.0px; margin-left: 0.0px; } *.right-insight p { float: right; background-color: rgb(153,194,255); color: black; margin-right: 2.0px; } </style> <div class="insight-section"> <ul> <li> <div class="right-insight"><img alt="Student" src="https://isidore.udayton.edu/access/content/public/images/CKEditor%20Templates/genericProf.png" /> <p>Replace this text and maybe the photo to create the effect of another side of a conversation or of a student responding to an instructor insight. It should be no more than a short paragraph or two. Contact E-Learning if you would like to learn best practices for using this element.</p> </div> </li> </ul> </div>'
-    },
-    {
-        title:'Marianist Principle',
-        image:'marianist.png',
-        description:'Panel box featuring the Marianist logo with text connecting a Marianist principle.',
-        html:'<div class="panel panel-default"> <div class="panel-heading"><img alt="Marianist Logo" class="callout-icon" src="https://isidore.udayton.edu/access/content/public/images/MBA_Logos/marianist.jpeg" style="padding-right:10px; float:left"/> <h3 class="callout-title">Marianist Principle</h3> </div>  <div class="panel-body"> <p>Enter a statement that connects your content with Marianist and Catholic principles. <p>Contact E-Learning or the Office for Mission and Rector if you would like to learn best practices for using this element.</p> </div> </div>'
-    },
-    {
-        title:'<span class="fa fa-lightbulb-o fa-3x template-icon" style="color:#E3BC2E;"></span>Key Idea',
-        description:'Yellow box with lightbulb and key idea text.',
-        html:'<div class="alert alert-warning"><div style="float:left"><span class="fa fa-3x fa-lightbulb-o"></span></div> <div style="margin-left:35.0px"><strong>Enter a statement that highlights a key idea. Double-click on the light bulb to change its color or to select another shape. Contact E-Learning if you would like to learn best practices for using this element.</strong></div></div>'
-    },
-    {
-        title:'<span class="fa fa-exclamation-triangle fa-3x template-icon" style="color:#a84843;"></span>Warning',
-        description:'Red panel box containing a warning message.',
-        html:'<div class="panel panel-danger"> <div class="panel-heading"> <h3 class="callout-title"><span class="fa fa-exclamation-triangle"></span> Warning!</h3> </div>  <div class="panel-body">Use this to give your students a very noticeable warning. Don&#39;t overuse these, or your students will stop noticing them. <p>Contact E-Learning if you would like to learn best practices for using this element.</p> </div> </div>'
-    },
-    {
-        title:'<span class="fa fa-star fa-3x template-icon" style="color:#E3BC2E;"></span>Alert with Star',
-        description:'Yellow box with a star and text',
-        html:'<div class="alert alert-warning"> <div style="float:left"><span class="fa fa-star" style="font-size:26.0px"></span></div>  <div style="margin-left:35.0px"><strong>Replace this with appropriate text to alert your students about something important. Double-click on the star to change its color or to select another shape. Contact E-Learning if you would like to learn best practices for using this element.</strong></div> </div>'
-    },
-    {
-        title:'<span class="fa fa-lightbulb-o fa-3x template-icon" style="color:#444;"></span>Learning Outcomes',
-        description:'Organized list of learning outcomes with icon',
-        html:'<h2><span class="fa fa-fw fa-lightbulb-o" style="color:#000000; font-size:25.0px"></span>&nbsp; Learning Outcomes</h2>  <p style="margin-left:40.0px">After completing this module, students will be able to:</p>  <ol> <li style="margin-left: 40.0px;">Construct learning outcomes using Bloom&#39;s Taxonomy.</li> <li style="margin-left: 40.0px;">Explain why each learning outcome must be measurable.</li> <li style="margin-left: 40.0px;">Revise this list as the course content changes.</li> <li style="margin-left: 40.0px;">State the contact information for E-Learning to get help with learning outcomes.</li> </ol>'
-    },
-    {
-        title:'<span class="fa fa-file-text fa-3x template-icon" style="color:#444;"></span>Assignment Task',
-        description:'Instructions for an assignment',
-        html:'<h3><span class="fa fa-file-text"></span>&nbsp;Assignment Title</h3>  <p><strong>Due:</strong> Thursday, July 5<br /> <strong>Estimated Time:</strong> 2.5 hours<br /> <strong>Value:</strong> 100 points</p>  <h4>Instructions</h4>  <p>Replace this with appropriate assignment instructions. Detail all expectations including content and format. Your goal should be to write instructions so clearly that students do not need to ask you questions. The assignment title may not be necessary if you are providing the title in a Section in the Lessons tool.&nbsp;Also&nbsp;in the Lessons tool, you can add a link to submit to an assignment immediately below this element. Contact E-Learning if you would like to learn best practices for using this element.</p> '
-    },
-    {
-        title:'<span class="fa fa-comments fa-3x template-icon" style="color:#444;"></span>Discussion Forum Task',
-        description:'Instructions for a discussion forum task',
-        html:'<h3><span class="fa fa-comments"></span>&nbsp;Discussion Forum</h3>  <p><strong>Initial Post Due:</strong> Thursday, July 5<br /> <strong>Response Post Due:</strong> Sunday, July 8<br /> <strong>Estimated Time:</strong> 45 minutes<br /> <strong>Value:</strong> 20 points</p>  <h4>Step 1</h4>  <p>Post a response to the following prompt. Your contribution should be complete while staying under 100 words.</p>  <p style="margin-left:40.0px"><strong>Prompt:</strong>&nbsp;All of the &quot;#1 Dad&quot; mugs in the world suddenly change to show the actual ranking of Dads. Project what effect this would have on society.</p>  <h4>Step 2</h4>  <p>Respond to two classmates\' posts by politely pointing out how their projections may be off-base.&nbsp;</p>  <p>Replace all this text with the appropriate text for your discussion forum exercise. The Lessons tool allows you to link to a forum topic directly below this text.&nbsp;Contact E-Learning if you would like to learn best practices for using this element.</p>'
-    },
-    {
-        title:'<span class="fa fa-book fa-3x template-icon" style="color:#444;"></span>Reading Assignment',
-        description:'Instructions for a reading assignment',
-        html:'<h3><span class="fa fa-book"></span>&nbsp;Reading Assignment</h3>  <p><strong>Due:</strong> Thursday, July 5<br /> <strong>Estimated Time:</strong> 30 minutes</p>  <h4>Instructions</h4>  <p>Read chapters 1 and 2 from <em>Opening Up Education</em> by Iiyoshi and Kumar. As you read, pay close attention to how traditional models of education have become less appropriate, and consider what this means for the future.&nbsp;Contact E-Learning if you would like to learn best practices for using this element.</p>'
-    },
-    {
-        title:'<span class="fa fa-play-circle fa-3x template-icon" style="color:#444;"></span>Video Assignment',
-        description:'Instructions for a video assignment',
-        html:'<h3><span class="fa fa-play-circle"></span>&nbsp;Video Assignment</h3>  <p><strong>Due:</strong> Thursday, July 5<br /> <strong>Estimated Time:</strong> 30 minutes</p>  <h4>Instructions</h4>  <p>Watch the following video. The speaker presents a compelling case for why wind turbines should be abandoned as a primary municipal power source. You will be expected to reference this video in the upcoming assignments.&nbsp;Contact E-Learning if you would like to learn best-practices for using this element.</p>  <p style="margin-left:40.0px"><em>Embed your video here using the video links in the editor tool bar.</em></p> '
-    },	
-	
-    {
-        title:'<span class="fa fa-play-circle fa-3x template-icon" style="color:#444;"></span>Z-BANNER black strip',
-		image:'https://drive.google.com/open?id=1JvmGnvW3kyvJTay6dC83Mz5bOSnOpYge',
-        description:'Insert to place a benner at the top of your page',
-        html:' <div class="image-stripe-backgroundimg-D non-semantic-protector"><p>&nbsp;</p><p>&nbsp;</p>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"><tbody><tr><th style="background-color:rgba(0, 0, 0, 0.5); border-color:#ffffff; height:70px; text-align:center; vertical-align:middle">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<h1 style="text-align:center"><span style="font-size:36px"><span style="color:#ffffff">Site_CSS_Banner-D.png</span></span></h1>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</th></tr></tbody></table><h1 style="text-align:center">&nbsp;</h1></div> '
-    },	
+
 	{
-        title:'<span class="fa fa-play-circle fa-3x template-icon" style="color:#444;"></span>Z-BANNER-1 white strip',
-		image:'http://v-sakai-dev-lnx2.nwu.ac.za:8080/access/content/group/4ef9bf55-742c-4b1e-a477-60d58659d106/ICON_studymaterial.png',
-        description:'Insert to place a benner at the top of your page images link to Gdrive file',
-        html:' <div class="image-stripe-backgroundimg-G non-semantic-protector"><p>&nbsp;</p><p>&nbsp;</p>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%"><tbody><tr><th style="background-color:rgba(255, 255, 255, 0.5); border-color:#ffffff; height:70px; text-align:center; vertical-align:middle">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<h1 style="text-align:center"><span style="font-size:36px">Site_CSS_Banner-G.png</span></h1>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</th></tr>	</tbody></table><h1 style="text-align:center">&nbsp;</h1></div> '
-    },	
+		        title:'Getting started', 
+		        image:'ItemIconRed.png',
+		        description:'Important information on how to use these templates.',
+		        html:'<p><span style="color:#c0392b"><strong><em>*For Lecturers only, delete when done.</em></strong></span></p><p>The Text Templates include standard headings and icons as well as placeholder instructions for activities and content. You can use the templates to ensure consistency when populating your module site, on eFundi, with content using the Lessons tool. Adapt as needed but remember not to use icons for other purposes. Icons should have the same meaning on all modules sites to prevent confusing students. These Text Templates are meant to be used during <strong>Step 3 </strong>as outlined.</p><h4>Steps to develop your lessons on eFundi:</h4><p><strong>Step 1:</strong>&nbsp;Create a consistent site structure. See examples of <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Module%20Site%20Structures.pdf" target="_blank">Module Site Structures</a> here.<br /><strong>Step 2:</strong> Build the module information pages. See examples of <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Module%20Information%20and%20pages.pdf" target="_blank">Module Information and pages</a> here.<br /><strong>Step 3:</strong> Use the Text Templates to create the first study unit / section as a template page. See examples of <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Lesson%20Page%20Templates.pdf" target="_blank">Lesson Page Templates</a> here.<br /><strong>Step 4:</strong> Add the template that you created in Step 3 to all other study unit / section pages. See the <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Re-use%20Content%20Tutorial.pdf" target="_blank">Re-use Content Tutorial</a>&nbsp;here.<br /><strong>Step 5: </strong>Adjust the Text Templates in each study unit / section and add the relevant content and activities. See tutorials about how to <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Add%20interesting%20content.pdf" target="_blank">add int</a><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Add%20interesting%20content.pdf" target="_blank">eresting content</a> here. See tutorials about how to <a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/Create%20interaction.pdf" target="_blank">create interaction</a> here.</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="http://efundi.nwu.ac.za/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><strong>NB:&nbsp;All red text includes notes and tips for lecturers about the Text Templates. Always delete all red text before making your lesson pages available to students on eFundi.</strong></span></p>'
+		    },
+			
+
 	{
-        title:'<span class="fa fa-play-circle fa-3x template-icon" style="color:#444;"></span>Z-BANNER-2 white strip',
-		image:'http://v-sakai-dev-lnx2.nwu.ac.za:8080/access/content/group/4ef9bf55-742c-4b1e-a477-60d58659d106/ICON_studymaterial.png',
-        description:'Insert to place a benner at the top of your page - images linked to sakai public site',
-        html:' <div class="image-stripe-backgroundimg-H non-semantic-protector"><p>&nbsp;</p><p>&nbsp;</p>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">	<tbody>		<tr>			<th style="background-color:rgba(255, 255, 255, 0.5); border-color:#ffffff; height:70px; text-align:center; vertical-align:middle">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<h1 style="text-align:center"><span style="font-size:36px">Site_CSS_Banner-H.png</span></h1>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</th></tr></tbody></table><h1 style="text-align:center">&nbsp;</h1></div> '
-    }
+		        title:'Module Information: General Information', 
+		        image:'ItemIconOrange.png',
+		        description:'Place for general information regarding the module.',
+		        html:'<table style="border:undefined"><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_studymaterial.png" width="40" /></td><td>&nbsp;</td><td><h2>Module Overview Document (MOD) / Study guide</h2></td></tr></tbody></table><p>Click here to access the MOD/study-guide for module [module code and hyperlink]</p><table style="border:undefined"><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_outcomes.png" width="40" /></td><td>&nbsp;</td><td><h2>Module outcomes</h2></td></tr></tbody></table><p><strong>&nbsp;After engaging with the module content, learning activities, and assessment opportunities actively, you should be able to</strong><strong>:</strong></p><ul><li>[bullet list]</li><li>[bullet list]</li></ul><table style="border:undefined"><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_date.png" width="40" /></td><td>&nbsp;</td><td><h2>Calendar and planning</h2></td></tr></tbody></table><p>[Place text/content here]</p><table style="border:undefined"><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_studymaterial.png" width="40" /></td><td>&nbsp;</td><td><h2>Prescribed study material</h2></td></tr></tbody></table><p>[Insert text/content here]</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Add study content by&nbsp;embedding a resource folder OR content links<br />&nbsp;(<strong>Add&nbsp;</strong><strong>content</strong>&nbsp;&gt;&nbsp;<strong>Link resource folder</strong>) / (<strong>Add&nbsp;content&nbsp;</strong>&gt;<strong>&nbsp;Create content link</strong>)</span></p><p><span style="color:#c0392b"></span><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />This template can be split into multiple text boxes in order for you to&nbsp;<strong>embed content</strong>&nbsp;OR&nbsp;<strong>create content links</strong>&nbsp;beneath the applicable headings.&nbsp;<br /><strong><em>*Delete these&nbsp;notes, for lecturers only.</em></strong></span></p>'
+		    },
+			
 		
-]});
+	{
+		        title:'Module Information: Lecturer Details', 
+		        image:'ItemIconOrange.png',
+		        description:'For lecturer contact and consultation information.',
+		        html:'<table style="border:undefined"><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Class.png" width="40" /></td><td>&nbsp;</td><td><h2>Lecturer details</h2></td></tr></tbody></table><table class="table table-bordered table-hover" style="width:550px"><thead><tr><th colspan="3" scope="col" style="background-color: rgb(119, 119, 119); text-align: center;"><h2><span style="color:#ffffff">[Campus]</span></h2></th></tr></thead><tbody><tr><td colspan="1" rowspan="7"><p style="text-align:center"><img alt="" height="200" src="http://efundi.nwu.ac.za/access/content/group/fc72a245-0139-4b04-a5f3-aef7aa5f2644/Graphic_Resources/profile-picture.jpg" width="149" /></p></td><td><strong>Title:</strong></td><td>[title]</td></tr><tr><td><strong>Name:</strong></td><td>[name]</td></tr><tr><td><strong>Position:</strong></td><td>[position]</td></tr><tr><td><strong>E-mail Address:</strong></td><td>[e-mail]</td></tr><tr><td><strong>Telephone:</strong></td><td>[number]</td></tr><tr><td><strong>Building and Office:</strong></td><td>[office]</td></tr><tr><td><strong>Consultation Hours:</strong></td><td>[hours]</td></tr></tbody></table><p style="margin-left:0in; margin-right:0in"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"></span></span></p>'
+		    },
+
+			
+	{
+		        title:'Module Information: Additional Information', 
+		        image:'ItemIconOrange.png',
+		        description:'For more information sections in Module info.',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_information.png" style="float:left" width="40" /></td>	<td>&nbsp;</td><td><h2>Additional information</h2></td></tr></tbody></table><p>[Add content here about module mark calculations, plagiarism,&nbsp;class representatives, student support (Supplemental Instruction (SI), tutors, academic mentors or facilitation, etc.]</p>'
+		    },
+		
+		
+	{
+		        title:'Module Information: Warning Against Plagiarism', 
+		        image:'ItemIconOrange.png',
+		        description:'Information regarding Plagiarism, Referencing, and NWU Writing & Library services.',
+		        html:'<h1>Academic integrity</h1><p>The NWU regards academic integrity as an integral part of all academic endeavours for both staff and students. The NWU&#39;s Policy on Academic Integrity (2018) defines academic integrity as &quot;the adherence to ethics of honest scholarship and the ability to work independently; to give credit to the ideas of others and the re-use of one&#39;s previous work; and the submission of original research products for assessment, examination and review&quot; (2018:4).</p><p><strong>Accepting academic responsibilities with integrity include:</strong></p><ul><li>proper understanding of the task or assignment instruction through task analysis;</li><li>thorough planning and analysis of the assessment task;</li><li>adequate time management towards all academic responsibilities;</li><li>reading towards writing;</li><li>practising academic writing skills, i.e. proper paraphrasing and correct sentence and paragraph construction;</li><li>aligning student and lecturer expectations in terms of the desired outcome(s) of the assessment task;</li><li>diligently completing assignments with careful consideration of the specific assessment guidelines as instructed by lecturers;</li><li>developing the ability and confidence to seek help when needed; and,</li><li>utilise feedback from lecturer to improve learning and the quality of future assessments.</li></ul><p>By adopting and practising the attributes listed above, students should be able to steer clear of cheating and plagiarism. Still, more importantly, students should be able to demonstrate accountability and autonomy in their academic work.</p><h1>Warning against plagiarism</h1><p><strong>Assignments are individual tasks and not group activities unless it is explicitly&nbsp;indicated in the instructions as a group activity</strong></p><p><strong>Copying&nbsp;</strong>of text from other students&nbsp;or from other sources (for instance the study guide, prescribed material or directly from the internet) is&nbsp;<strong>not allowed</strong>. You should&nbsp;<strong>reformulate&nbsp;</strong>existing text and use your&nbsp;<strong>own words&nbsp;</strong>to explain what you have read. It is not acceptable to retype existing text and acknowledge the source in a footnote &ndash;you should be able to relate the idea or concept, without repeating the original author to the letter. &nbsp;</p><p>The aim of the assignments are not the reproduction of existing material&nbsp;but to make sure you are able to integrate texts, add your own interpretation and/or critique of the texts and offer a creative solution to existing problems.</p><p>Be warned: Students who submit copied text will obtain a mark of zero for the assignment and disciplinary steps may be taken by the Faculty and/or University. It is also unacceptable to do someone else&rsquo;s work, to lend your work to them or to make your work available to them to copy &ndash;be careful and do not make your work available to anyone!</p><table><tbody><tr><td><img alt="Icon: Folder" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_resources.png" width="40" /></td><td>&nbsp;</td><td><h3>Plagiarism forms</h3></td></tr></tbody></table><p><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/ENG-Plagiarism%20form.pdf">ENG-Plagiarism form.pdf&nbsp;</a>&nbsp;|&nbsp;&nbsp;<a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/AFR-Plagiaatvorm.pdf">AFR-Plagiaatvorm.pdf</a></p><p><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/ENG-Group-Declaration_against_plagiarism.pdf">ENG-Group-Declaration_against_plagiarism.pdf</a>|&nbsp;<a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/AFR-Groep-Plagiaatverklaring.pdf">&nbsp;AFR-Groep-Plagiaatverklaring.pdf</a></p><table><tbody><tr><td><img alt="Icon: Reading" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_study-hints.png" width="40" /></td><td>&nbsp;</td><td><h3>Reference guide</h3></td></tr></tbody></table><p><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/ENG-reference-guide-NWU.pdf" target="_blank" title="PDF">ENG-reference-guide-NWU.pdf</a>&nbsp;</p><p><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Plagiarism_documents/AFR-verwysingsgids-NWU.pdf" target="_blank" title="PDF">AFR-Verwysingsgids-NWU.pdf</a></p><table><tbody><tr><td><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Question.png" width="40" /></td><td>&nbsp;</td><td><h4>What does the NWU say about plagiarism?</h4></td></tr></tbody></table><p><a href="https://libguides.nwu.ac.za/undergraduate-student-support/plagiarism">Link to NWU Library undergraduate student support:&nbsp;Plagiarism</a></p><p><a href="http://library.nwu.ac.za/referella">Link to NWU Referella - Learn more about referencing and how it works</a></p><table><tbody><tr><td><img alt="Icon: Book" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_studymaterial.png" width="40" /></td><td>&nbsp;</td><td><h3>NWU Library and Information Services</h3></td></tr></tbody></table><p><a href="http://library.nwu.ac.za/?_ga=2.125247178.1310000215.1587635799-955745571.1579698519">Link to NWU Library Services</a><br />&nbsp;</p><h1>NWU Writing Centre</h1><p>The&nbsp;<a href="http://humanities.nwu.ac.za/nwu-writing-centre">NWU Writing Centre</a>&nbsp; is dedicated to the improvement of student academic writing. Developing one&rsquo;s writing skills does not end at a university level&nbsp;but is a lifelong skill and an invaluable tool for effective communication. The Writing Centre assists students in planning and structuring their written assignments. It is also a safe space in which students are assisted to become more confident in their own academic voice. To achieve this, the NWU has a number of consultants who assist students during consultations. This service is free of charge and students are welcome to&nbsp;<a href="https://nwu.mywconline.com/">make appointments with a consultant&nbsp;</a>at any one of the three campuses&rsquo; writing centres.</p><p><em><strong>During COVID-19</strong>, the NWU Writing Centre is closed. Therefore, appointments are secured online. When restrictions are relaxed, students are welcome to visit the consultants.</em></p><p>The <strong>Mahikeng </strong>Campus Writing Laboratory is located at the Academic and Development Centre, Building G183 Block D.<br />The <strong>Potchefstroom</strong> Campus Writing Centre is located at Building E8 Room G44.<br />The <strong>Vanderbijlpark </strong>Campus Writing Laboratory is located at Building 13 (the Library) SL328</p>'
+			    },		
+				
+				
+
+	{
+		        title:'Module Assessment: Class/Semester Test', 
+		        image:'ItemIconYellow.png',
+		        description:'Basic information about a class or semester test.',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Quiz.png" width="40" /></td><td>&nbsp;</td><td><h3>Test/Semester test* / Klass/Semester toets*</h3></td></tr></tbody></table><h6>&nbsp;</h6><table class="table table-bordered table-hover"><tbody><tr><td colspan="2" style="background-color:#777777; text-align:center"><h3><span style="color:#ffffff">Class/Semester test*</span></h3></td></tr><tr><td><p><strong>DATE</strong></p></td><td><p>[date]</p></td></tr><tr><td><p><strong>TIME</strong></p></td><td><p>[time]</p></td></tr><tr><td><p><strong>VENUE</strong></p></td><td><p>[venue]</p></td></tr><tr><td><p><strong>MARKS</strong></p></td><td><p>[marks]</p></td></tr><tr><td><p><strong>STUDY MATERIAL</strong></p></td><td><p>[material]</p></td></tr><tr><td><p><strong>STRUCTURE</strong></p></td><td><p>[structure]</p></td></tr></tbody></table>'
+		    },
+			
+		
+	{
+		        title:'Module Assessment: Assignment Information', 
+		        image:'ItemIconYellow.png',
+		        description:'Basic information for an assessment.',
+		        html:'<h1>Assignment / Opdrag*: Title</h1><table><tbody><tr><td><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_assignment.png" width="40" /></td><td>&nbsp;</td><td><h3>Assignment outline / Opdrag uiteensetting&nbsp;</h3></td></tr></tbody></table><p><strong>Open date:</strong>&nbsp;[date]<br /><strong>Due:</strong>&nbsp;[date]<br /><strong>Group Size:</strong>&nbsp;[Groups of (4-6)&nbsp; /&nbsp; This is an individual activity]<br /><strong>Estimated Time:</strong>&nbsp;[2 hours]&nbsp;<br /><strong>Feedback:</strong>&nbsp;[Feedback will be available 10&nbsp;days after the due date]</p><h4>Instructions:</h4><p>[Replace this text with appropriate assignment instructions regarding the content of the assignment.]</p><h4>Format &amp; submission:</h4><p>[Provide detail regarding the format in which you expect the assignment to be submitted.]</p><h4>&nbsp;</h4><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Rubric.png" width="40" /></td><td>&nbsp;</td><td><h3>Rubric&nbsp;/&nbsp;Merkblad</h3></td></tr></tbody></table><p>[Add files or information on how the assessment will be graded and recorded.]</p><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Class.png" width="40" /></td><td>&nbsp;</td><td><h3>Examples / Voorbeelde</h3></td></tr></tbody></table><p>[Add an example relating to the assignment]<span style="color:#e74c3c">&nbsp;(optional)</span></p><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_resources.png" width="40" /></td><td>&nbsp;</td><td><h3>Resources /&nbsp;Hulpbronne (Resources)</h3></td></tr></tbody></table><p>[Add files or information on any additional resources and files]<span style="color:#e74c3c"> (optional)</span></p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><strong>Lecturer notes: </strong>This template can be split into multiple text boxes in order for you to <strong>embed content</strong> OR <strong>create content links</strong> beneath the applicable headings.&nbsp;<br />Add assignment link beneath &quot;Format &amp; submission&quot; if the students have to upload via assignments (<strong>Add content &gt; Link to an assignment</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },
+			
+		
+
+	{
+		        title:'Lesson: Introduction', 
+		        image:'ItemIconGreen1.png',
+		        description:'Basic information heading about the study unit. Place at the start of each unit lesson page.',
+		        html:'<hr /><h1>Unit name / Leereenheid naam*</h1><hr /><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_information.png" style="float:left" width="40" /></td><td>&nbsp;</td><td><h2>Introductory remarks</h2></td></tr></tbody></table><p>In this study unit, you will ...</p><hr /><table> <tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_time.png" width="040" /></td><td>&nbsp;</td><td><h2>Study time</h2></td></tr></tbody></table><p>Recommended time-period to master these study unit outcomes:<strong> * notional hours.</strong></p><hr /><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_outcomes.png" width="40" /></td><td>&nbsp;</td><td><h2>Learning outcomes</h2></td></tr></tbody></table><p><strong>After completion of this study unit you should:</strong></p><ul><li>[bullet list]</li><li>[bullet list]</li></ul><hr /><table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_studymaterial.png" width="40" /></td><td>&nbsp;</td><td><h2>Study material</h2></td></tr></tbody></table><p><strong>List of resources needed to complete this study unit:</strong></p><ul><li>[bullet list]</li></ul><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Add content by&nbsp;embedding a resource folder OR content links<br />&nbsp;(<strong>Add </strong><span style="color:#c0392b"><strong>content</strong> </span>&gt; <strong>Link resource folder</strong>) / (<strong>Add <span style="color:#c0392b">content </span></strong>&gt;<strong> Create content link</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p><p>&nbsp;</p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Information', 
+		        image:'ItemIconGreen2.png',
+		        description:'Information',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_information.png" style="float:left" width="40" /></td>	<td>&nbsp;</td>	<td><h3>Information /&nbsp;Inligting</h3></td></tr>	</tbody></table><p>[Place text/content here]</p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Dates', 
+		        image:'ItemIconGreen3.png',
+		        description:'Dates',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_date.png" width="40" /></td><td>&nbsp;</td><td><h3>Important date / Belangrike datums</h3></td></tr></tbody></table><p>[Place text/content here]</p>'
+		    },
+		
+		
+	{
+		        title:'Lesson: Study Material', 
+		        image:'ItemIconGreen4.png',
+		        description:'Study Material',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_studymaterial.png" width="40" /></td><td>&nbsp;</td><td><h3>Study material /&nbsp;Studiemateriaal</h3></td></tr></tbody></table><p>[Place text/content here]</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Additional Resources', 
+		        image:'ItemIconGreen5.png',
+		        description:'Additional Resources',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_resources.png" width="40" /></td><td>&nbsp;</td><td><h3>Resources /&nbsp;Hulpbronne (Resources)</h3></td></tr>	</tbody></table><p>[Add files or information on any additional resources and files]</p>'
+		    },		
+			
+
+	{
+		        title:'Lesson: Compulsory Reading', 
+		        image:'ItemIconGreen6.png',
+		        description:'Compulsory Reading',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_study-hints.png" width="40" /></td><td>&nbsp;</td><td><h3>Compulsory reading /&nbsp;Verpligte leeswerk</h3></td></tr></tbody></table><p>[Place text/content here]</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Class Slides', 
+		        image:'ItemIconGreen7.png',
+		        description:'Class Slides',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Class-slides.png" width="40" /></td><td>&nbsp;</td><td><h3>Class slides / Klasskyfies</h3></td></tr></tbody></table><p><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><span style="color:#c0392b">(<strong>Add content &gt; Embed content</strong>) OR&nbsp;(<strong>Add content &gt; Add content link</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Class Preparation', 
+		        image:'ItemIconGreen8.png',
+		        description:'Class Preparation',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Class.png" width="40" /></td><td>&nbsp;</td><td><h3>Class preparation / Klasvoorbereiding</h3></td></tr></tbody></table><p><strong>Instructions:</strong> Text...</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Class/Concept Videos', 
+		        image:'ItemIconGreen9.png',
+		        description:'Class/Concept Videos',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Video-concept.png" width="40" /></td><td>&nbsp;</td><td><h3>Concept videos / Konsepvideos</h3></td></tr></tbody></table><p><strong>Instructions:</strong> Text...</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Video File', 
+		        image:'ItemIconGreen10.png',
+		        description:'Video File',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Video.png" width="40" /></td><td>&nbsp;</td><td><h3>Video resource /&nbsp;Video hulpbron</h3></td></tr></tbody></table><p><strong>Instructions: </strong>Watch the following&nbsp;video...</p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Video - Embed without downloading', 
+		        image:'ItemIconGreen11.png',
+		        description:'Prevent the automatic download of a video - uploaded in eFundi Resources.',
+		        html:'<p><video controls="" width="750"><source src="" /> Your browser does not support the video tag.</video></p><p><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><strong><span style="color:#c0392b">Note:</span></strong><span style="color:#c0392b">&nbsp;</span><span style="color:#c0392b"><a href="http://efundi.nwu.ac.za/access/content/group/37d951f2-d770-4e51-9017-0fdde083540b/Word%20to%20PDF%20Tutorials/Staff/PDF%20Finals/eFundi%20Tutorial_Embedding%20video%20and%20audio.pdf">Click to go to Tutorial for embedding a video file using this video box</a></span><br /><a href="http://efundi.nwu.ac.za/access/content/group/37d951f2-d770-4e51-9017-0fdde083540b/Word%20to%20PDF%20Tutorials/Staff/PDF%20Finals/eFundi%20Tutorial_Embedding%20video%20and%20audio.pdf"><span style="color:#c0392b"></span></a><span style="color:#c0392b"><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Audio File', 
+		        image:'ItemIconGreen12.png',
+		        description:'Audio File',
+		        html:'<table><tbody><tr><td><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_voice.png" width="40" /></td><td>&nbsp;</td><td><h3>Audio clip / Klankgreep</h3></td></tr></tbody></table><p><strong>Instructions: </strong>Listen to the following...</p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Audio - Embed without downloading', 
+		        image:'ItemIconGreen13.png',
+		        description:'Prevent the automatic download of an audio file - uploaded in eFundi Resources.',
+		        html:'<p><audio controls=""><source src="" type="audio/mpeg" /> Your browser does not support the audio element.</audio></p><p><img alt="enlightened" height="23" src="http://efundi.nwu.ac.za/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><span style="color:#c0392b"><strong>Note:</strong>&nbsp;</span><a href="http://efundi.nwu.ac.za/access/content/group/37d951f2-d770-4e51-9017-0fdde083540b/Word%20to%20PDF%20Tutorials/Staff/PDF%20Finals/eFundi%20Tutorial_Embedding%20video%20and%20audio.pdf">Click to go to Tutorial for embedding an audio&nbsp;file using this audio&nbsp;box</a><br /><span style="color:#c0392b"><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },
+		
+		
+	{
+		        title:'Lesson: Image/Infographic/Diagrams ', 
+		        image:'ItemIconGreen14.png',
+		        description:'Image/Infographic/Diagrams',
+		        html:'<table>	<tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Indo-graph.png" width="40" /></td><td>&nbsp;</td><td><h3>Infographics /&nbsp;Infografika</h3></td></tr></tbody></table><p><strong>Instructions: </strong>Look at the below...</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><strong>Infographics can also be&nbsp;</strong>Summaries / Opsommings, Diagrams /&nbsp;Diagramme <strong>OR </strong>Mind maps / Breinkaarte.&nbsp;&nbsp;(<strong>Add content &gt; Embed content</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Calculation', 
+		        image:'ItemIconGreen15.png',
+		        description:'Calculation',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Math.png" width="40" /></td><td>&nbsp;</td><td><h3>Calculation / Berekening</h3></td></tr></tbody></table><p>[Place text/content here]</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Reflection', 
+		        image:'ItemIconGreen16.png',
+		        description:'Reflection',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_reflection.png" width="40" /></td><td>&nbsp;</td><td><h3>Reflection / Refleksie</h3></td></tr></tbody></table><p>[Place text/content here]</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Frequently Asked Questions', 
+		        image:'ItemIconGreen17.png',
+		        description:'Frequently Asked Questions',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Question.png" width="40" /></td><td>&nbsp;</td><td><h3>Frequently asked questions / Algemene vrae</h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>Didn&#39;t have time to ask the lecturer your question(s) during the lecture on this study section? No worries! Post your question here. The SI leader, class facilitator and /or tutor&nbsp;will answer your question during their sessions.&nbsp;</p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Lecturer notes:&nbsp;</strong>Use the comments (<strong>Add content &gt; Add comments</strong>)&nbsp;to&nbsp;insert comments for submission&nbsp;within your lesson.<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Portfolio', 
+		        image:'ItemIconGreen18.png',
+		        description:'Portfolio',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Portfolio.png" width="40" /></td><td>&nbsp;</td><td><h3>Portfolio&nbsp;/&nbsp;Portefeulje</h3></td></tr></tbody></table><p><strong>Instructions: </strong>Text...</p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Rubric', 
+		        image:'ItemIconGreen19.png',
+		        description:'Rubric',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Rubric.png" width="40" /></td><td>&nbsp;</td><td><h3>Rubric/&nbsp;Rubriek</h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>Text...</p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="http://efundi.nwu.ac.za/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Lecturer notes: </strong>Add a table or link to a document.&nbsp;&nbsp;(<strong>Add content &gt; Embed content</strong>) OR&nbsp;<span style="color:#c0392b">(<strong>Add content &gt; Add content links</strong>)</span><br /><strong>Rubric can also be</strong> Mark sheet / Markbald</span><br /><span style="color:#c0392b"><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Lesson: Download', 
+		        image:'ItemIconGreen20.png',
+		        description:'Download',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_download.png" width="40" /></td><td>&nbsp;</td><td><h3>Download / Laai af</h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>Text...</p>'
+		    },
+			
+		
+	{
+		        title:'Lesson: Upload', 
+		        image:'ItemIconGreen21.png',
+		        description:'Upload',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Upload.png" width="40" /></td><td>&nbsp;</td><td><h3>Upload / Laai op</h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>Text...</p>'
+		    },
+			
+			
+	{
+		        title:'Activity: Assignment', 
+		        image:'ItemIconSkyBlue1.png',
+		        description:'',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_assignment.png" width="40" /></td><td>&nbsp;</td><td><h3>Assignment outline / Opdrag uiteensetting&nbsp;</h3></td></tr></tbody></table><p><strong>Open date:</strong>&nbsp;[date]<br /><strong>Due:</strong>&nbsp;[date]<br /><strong>Group Size:</strong>&nbsp;[Groups of (4-6)&nbsp; /&nbsp; This is an individual activity]<br /><strong>Estimated Time:</strong>&nbsp;[2 hours]&nbsp;<br /><strong>Feedback:</strong>&nbsp;[Feedback will be available 10&nbsp;days after the due date]</p><h4><strong>Instructions:</strong></h4><p>[Replace this text with appropriate assignment instructions regarding the content of the assignment.]</p><h4><strong>Format &amp; submission:</strong></h4><p>[Provide detail regarding the format in which you expect the assignment to be submitted.]</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="http://efundi.nwu.ac.za/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Add assignment link here if the students have to upload via assignments (<strong>Add content &gt; Link to an assignment</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },
+			
+
+	{
+		        title:'Activity: Empty', 
+		        image:'ItemIconSkyBlue2.png',
+		        description:'Empty',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_task.png" width="40" /></td><td>&nbsp;</td><td><h3><strong>Activity&nbsp;</strong>/ Oefening</h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>Text...</p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />(Optional) Lecturer notes:&nbsp;</strong>Use the question&nbsp;tool at (<strong>Add content &gt; Add Question</strong>)&nbsp;to&nbsp;insert a question for submission&nbsp;within your lesson. <a href="http://efundi.nwu.ac.za/access/content/group/37d951f2-d770-4e51-9017-0fdde083540b/Video%20Tutorials/Official%20tutorials/Staff/Lessons/2-Add-Lessons-add-Subpages-1.html">Click here to watch a tutorial</a>&nbsp;video.<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },
+			
+		
+	{
+		        title:'Activity: Individual', 
+		        image:'ItemIconSkyBlue3.png',
+		        description:'Individual',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_indivual-work.png" width="40" /></td><td>&nbsp;</td><td><h3>Individual activity /&nbsp;Individuele aktiwiteit</h3></td></tr></tbody></table><p><strong>Open date:</strong>&nbsp;[date]<br /><strong>Due:</strong>&nbsp;[date]<br /><strong>Group Size:</strong>&nbsp;This is an individual activity<br /><strong>Estimated Time:</strong>&nbsp;[2 hours]&nbsp;<br /><strong>Feedback:&nbsp;</strong>[Feedback will be available 10&nbsp;days after the due date]</p><h4><strong>Instructions:</strong></h4><p>[Replace this text with appropriate assignment instructions regarding the content of the assignment.]</p><h4><strong>Format &amp; submission:</strong></h4><p>[Provide detail regarding the format in which you expect the assignment to be submitted.]</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Add assignment link here if the students have to upload via assignments (<strong>Add content &gt; Link to an assignment</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'    
+	},
+		
+		
+	{
+		        title:'Activity: Group', 
+		        image:'ItemIconSkyBlue4.png',
+		        description:'Group',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_group-work.png" width="40" /></td><td>&nbsp;</td><td><h3>Group activity / Groepaktiwiteit&nbsp;</h3>		</td></tr></tbody></table><p><strong>Open date:</strong>&nbsp;[date]<br /><strong>Due:</strong>&nbsp;[date]<br /><strong>Group Size:</strong>&nbsp;[Groups of (4-6)]&nbsp;<br /><strong>Estimated Time:</strong>&nbsp;[2 hours]&nbsp;<br /><strong>Feedback:</strong> [Feedback will be available 10&nbsp;days after the due date]</p><h4><strong>Instructions:</strong></h4><p>[Replace this text with appropriate assignment instructions regarding the content of the assignment.]</p><h4><strong>Format &amp; submission:</strong></h4><p>[Provide detail regarding the format in which you expect the assignment to be submitted.]</p><p><span style="color:#c0392b"><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Add assignment link here if the students have to upload via assignments (<strong>Add content &gt; Link to an assignment</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Activity: Quiz', 
+		        image:'ItemIconSkyBlue5.png',
+		        description:'Quiz',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Quiz.png" width="40" /></td><td>&nbsp;</td><td><h3>Test and quiz / Toets en vasvra</h3></td></tr></tbody></table><p><strong>Instructions: </strong>After working through the content please complete the quiz to test if you understand the topics discussed in this study unit/section.</p><p><strong>Time needed: </strong>You will need approximately [time] / You will only be allowed [time]<br /><strong>Will this quiz be graded?:</strong>&nbsp;Yes/No<br /><strong>Submission allowance:</strong> You will be able to submit this test (*) time(s)<br /><strong>Deadline: </strong>[date]</p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Lecturer notes:&nbsp;</strong>Remember to insert the Quiz (<strong>Add Content </strong>&gt;&nbsp;<strong>Link to a test or quiz</strong>).<br />NB: You first need to publish created or imported quizzes before you can insert the link.&nbsp;<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Activity: Comment on the Content', 
+		        image:'ItemIconSkyBlue6.png',
+		        description:'Comment on the Content',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_discuss.png" width="40" /></td><td>&nbsp;</td><td><h3><strong>Comment on the content</strong></h3></td></tr></tbody></table><p><strong>Instructions:&nbsp;</strong>After <strong>(reading/watching/listening to)</strong> the <strong>(article/video/podcast) </strong>please answer the following question(s) by clicking on the comment tool below:</p><p><strong>Question: [place text here]</strong></p><p><em>Please note: All comments will be posted anonymously. / Comments will not be posted anonymously.</em></p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Lecturer notes:&nbsp;</strong>Remember to insert the Comment Tool (<strong>Add content &gt;&nbsp;Add comments tool</strong>).<br />*Remember to adjust the anonymous settings according to your needs.&nbsp;<br />*Never insert more content beneath the comment tool on a Lesson page. All the comments will display at once to all the learners and might cause that important content below the tool are missed as everything&nbsp;shifts downwards after each&nbsp;comment.</span><span style="color:#c0392b"><br />*<a href="http://efundi.nwu.ac.za/access/content/group/37d951f2-d770-4e51-9017-0fdde083540b/Video%20Tutorials/Official%20tutorials/Staff/Lessons/How-to-import-Lessons-from-another-page-1-1.html">Watch this tutorial video about the comment&nbsp;tool.</a><br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+		
+	{
+		        title:'Activity: Discussion - Preparation', 
+		        image:'ItemIconSkyBlue7.png',
+		        description:'Preparation',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_discuss.png" width="40" /></td><td>&nbsp;</td><td><h3>Prepare for discussion / Voorbereiding vir bespreking</h3>		</td></tr></tbody></table><p><strong>Instructions: </strong>Text...</p>'
+		    },		
+			
+			
+	{
+		        title:'Activity: Forum Discussion', 
+		        image:'ItemIconSkyBlue8.png',
+		        description:'Forum Discussion',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_discuss.png" width="40" /></td><td>&nbsp;</td><td><h3>Forum discussion / Forum bespreking</h3></td></tr></tbody></table><h4>Instructions:</h4><p>Please join the discussion on the Forum topic:<strong> [Name of topic]</strong>. Access the link to the topic below and answer the following questions:</p><ol><li>[Question 1]</li><li>[Question 2]</li></ol><h4><strong>Requirements:</strong></h4><ol><li>Make a unique post of at least (200) words in which you refer to at least (2) sources to support your statements.</li><li>Provide an insightful comment on at least (1) other post.</li></ol><h4><strong>Deadline:</strong></h4><p>Deadline for this discussion is [DATE]</p><p>&nbsp;</p><p><span style="color:#c0392b"><strong><img alt="enlightened" height="23" src="/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" />Lecturer notes:&nbsp;</strong>Remember to insert the link to the Forum (<strong>Add Content &gt;&nbsp;Link to a forum or topic</strong>).<br /><strong><em>*Delete this note, for lecturers only. Also copy and delete the section below</em></strong></span></p><h2><span style="color:#c0392b"><strong>Text in Forum - when creating the discussion topic</strong></span></h2><h3><span style="color:#8e44ad"><strong>Forum: Class-wide discussion</strong></span></h3><p><span style="color:#8e44ad">Welcome to the class-wide discussion forum. This is a space where you can interact with your fellow students and lecturer about general questions and ideas. To make a post click on &ldquo;Start a New Conversation&rdquo;.</span></p><p><span style="color:#8e44ad"><strong>Need help?</strong>&nbsp;For more information on how to use the Forum visit the Help page found on the eFundi homepage and select User Guide.</span></p><p><span style="color:#8e44ad"><strong>Instructions:</strong><br />Please join the discussion on the Forum topic: (Name of topic). Access the link to the topic below and answer the following questions:</span></p><ol><li><span style="color:#8e44ad">Question 1</span></li><li><span style="color:#8e44ad">Question 2</span></li></ol><p><span style="color:#8e44ad"><strong>Requirements:</strong></span></p><ol start="1"><li><span style="color:#8e44ad">Make a unique post of at least (200) words in which you refer to at least (2) sources to support your statements.</span></li><li><span style="color:#8e44ad">Provide an insightful comment on at least (1) other post.</span></li></ol><p><span style="color:#8e44ad"><strong>Deadline: [DATE]</strong></span></p><h2><span style="color:#16a085"><strong>Forum: Small group discussion</strong></span></h2><p><span style="color:#16a085">Welcome to the small groups discussion forum. You are expected to collaborate with your group members about specific topics posted to the forum. To get started, select your group from the topic list below. To make a post click on &ldquo;Start a New Conversation&rdquo;.</span></p><p><span style="color:#16a085"><strong>Please note:</strong> You are able to view all of the group discussions, however you will only be able to interact in your specific group&#39;s discussion.</span></p><p><span style="color:#16a085"><strong>Need help? </strong>For more information on how to use the Forum visit the Help page found on the eFundi homepage and select User Guide.</span></p><p><span style="color:#16a085"><strong>Instructions:</strong><br />Access the link to the forum topic below and discuss the following questions with your group members:</span></p><ol><li><span style="color:#16a085">[Question 1]</span></li>	<li><span style="color:#16a085">[Question 2]</span></li></ol><p><span style="color:#16a085"><strong>Requirements:</strong></span></p><ol><li><span style="color:#16a085">Make a unique post of at least (200) words in which you refer to at least (2) sources to support your statements.</span></li><li><span style="color:#16a085">Provide an insightful comment on at least (1) other post.</span></li></ol><p><span style="color:#16a085"><strong>Deadline:</strong></span></p>'
+			    },		
+				
+				
+	{
+		        title:'Activity: Multimedia/Presentation', 
+		        image:'ItemIconSkyBlue9.png',
+		        description:'Multimedia/Presentation',
+		        html:'<table><tbody><tr><td style="width:40px"><img alt="" height="40" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/small/ICON_Video-concept.png" width="40" /></td><td>&nbsp;</td><td><h3><strong>Activity:&nbsp;Multimedia /&nbsp;Aktiwiteit: Multimedia</strong></h3></td></tr></tbody></table><p><strong>Open date</strong>&nbsp;[date]<br /><strong>Due:</strong>&nbsp;[date]<br /><strong>Group Size:</strong>&nbsp;[Groups of (4-6)&nbsp; /&nbsp; This is an individual activity]<br /><strong>Estimated Time:</strong>&nbsp;[2 hours]&nbsp;<br /><strong>Feedback:</strong>&nbsp;[Feedback will be available 10&nbsp;days after the due date]</p><h4><strong>Instructions:</strong></h4><p>[Replace this text with appropriate assignment instructions regarding the content of the assignment.]</p><h4><strong>Format &amp; submission:</strong></h4><p>[Provide detail regarding the format in which you expect the assignment to be submitted.]</p><p><img alt="enlightened" height="23" src="http://efundi.nwu.ac.za/library/editor/ckeditor/plugins/smiley/images/lightbulb.png" title="enlightened" width="23" /><span style="color:#c0392b">Add assignment link here if the students have to upload via assignments (<strong>Add content &gt; Link to an assignment</strong>)<br /><strong><em>*Delete this note, for lecturers only.</em></strong></span></p>'
+		    },		
+			
+
+			
+			
+			
+	{
+		        title:'Panel Text Box: Gray - General Knowledge Block', 
+		        image:'ItemIconLightPurple.png',
+		        description:'General Knowledge Block - Highlight a reading passage/content.',
+		        html:'<div class="panel panel-default"><div class="panel-heading"><table style="width:100%"><tbody><tr><td><h1>Heading</h1></td></tr></tbody></table></div><div class="panel-body"><table style="width:100%"><tbody><tr><td><p>Box Content</p><p><span style="color:#e74c3c"><strong>NOTE:</strong> </span><span style="color:#e74c3c">All text and content must stay within&nbsp;this box and should not fall below this line</span></p></td></tr></tbody></table></div></div>'
+		    },
+			
+			
+	{
+		        title:'Panel Text Box: Blue', 
+		        image:'ItemIconLightPurple.png',
+		        description:'Concept Review Block - Highlight a concept and explanations thereof.',
+		        html:'<div class="panel panel-primary"><div class="panel-heading"><table style="width:100%"><tbody><tr><td><h1>Heading</h1></td></tr></tbody></table></div><div class="panel-body"><table style="width:100%"><tbody><tr><td><p>Box Content</p><p><span style="color:#e74c3c"><strong>NOTE:</strong> </span><span style="color:#e74c3c">All text and content must stay within&nbsp;this box and should not fall below this line</span></p></td></tr></tbody></table></div></div>'
+		    },
+			
+			
+	{
+		        title:'Panel Text Box: Red', 
+		        image:'ItemIconLightPurple.png',
+		        description:'Important Information Block - Highlight very important content or knowledge.',
+		        html:'<div class="panel panel-danger"><div class="panel-heading"><table style="width:100%"><tbody><tr><td><h1>Heading</h1></td></tr></tbody></table></div><div class="panel-body"><table style="width:100%"><tbody><tr><td><p>Box Content</p><p><span style="color:#e74c3c"><strong>NOTE:</strong> </span><span style="color:#e74c3c">All text and content must stay within&nbsp;this box and should not fall below this line</span></p></td></tr></tbody></table></div></div>'
+		    },
+		
+			
+
+			
+	{
+		        title:'Notice Box: Yellow', 
+		        image:'ItemIconPurple.png',
+		        description:'Note!',
+		        html:'<div class="alert alert-warning" role="alert"><table style="width:100%"><tbody><tr><td><strong>Note!</strong> text</td></tr></tbody></table></div>'
+		    },
+			
+		
+	{
+		        title:'Notice Box: Blue', 
+		        image:'ItemIconPurple.png',
+		        description:'Info!',
+		        html:'<div class="alert alert-info" role="alert"><table style="width:100%"><tbody><tr><td><strong>Info!</strong> text</td></tr></tbody></table></div>'
+		    },
+			
+		
+	{
+		        title:'Notice Box: Green', 
+		        image:'ItemIconPurple.png',
+		        description:'Success!',
+		        html:'<div class="alert alert-success" role="alert"><table style="width:100%"><tbody><tr><td><strong>Success!</strong> text</td></tr></tbody></table></div>'
+		    },
+		
+		
+	{
+		        title:'Notice Box: Red', 
+		        image:'ItemIconPurple.png',
+		        description:'Important!',
+		        html:'<div class="alert alert-danger" role="alert"><table style="width:100%"><tbody><tr><td><strong>Important!</strong> text</td></tr></tbody></table></div>'
+		    },		
+			
+			
+
+			
+			
+			
+	{
+		        title:'CSS: How to get this CSS stuff working', 
+		        image:'ItemIconPink.png',
+		        description:'See notes on how to apply a Styling sheet to your site.',
+		        html:'<h1>So you are wondering about the CSS elements&nbsp;at the bottom of the list?</h1><h3>How it works:</h3><p>These elements use a custom created CSS file that CTL can upload and activate on your site. This &nbsp;CSS file will improve the styling of the elements on your site and can be added at any time. Content will not be affected.</p><h3>How to get it on your site:</h3><p>We do all the heavy lifting. All you have to do is put a request to the Centre for Teaching and Learning (CTL). See the contact details here: <a href="http://services.nwu.ac.za/centre-teaching-and-learning-ctl/teaching-technology"><strong>Meet the Team</strong></a></p><h1><strong>Also available from CTL:&nbsp;</strong></h1><ul><li>Pre-designed site navigation structures</li><li>Pre-designed Lesson&nbsp;page/content&nbsp;structures</li><li>Custom designed graphic banners</li></ul><p><a href="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/CSS%20doc%20and%20tutorials/CSS%20Example%20Transformation.pdf">Click here to open&nbsp;screenshots&nbsp;of how this&nbsp;CSS file and elements can transform your site.</a></p>'
+		    },
+			
+		
+	{
+		        title:'CSS: Speech Elements - Left block', 
+		        image:'ItemIconPink.png',
+		        description:'Left',
+		        html:'<div class="insight-section"><ul><li><div class="left-insight"><img alt="Intructor speaking" height="50" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Speech-icons-Templates/ICON_Lady1-P.png" width="50" /><p>&quot;Please stay within the quotations&quot;</p></div></li></ul></div>'
+		    },
+			
+		
+	{
+		        title:'CSS: Speech Elements - Right block', 
+		        image:'ItemIconPink.png',
+		        description:'Right',
+		        html:'<div class="insight-section"><ul><li><div class="right-insight"><img alt="Student responding" height="50" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Speech-icons-Templates/ICON_Man1-T.png" width="50" /><p>&quot;Please stay within the quotations&quot;</p></div></li></ul></div>'
+		    },
+		
+		
+	{
+		        title:'CSS: Speech Elements - Left & Right block', 
+		        image:'ItemIconPink.png',
+		        description:'Left & Right',
+		        html:'<div class="insight-section"><ul><li><div class="left-insight"><img alt="Intructor speaking" height="50" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Speech-icons-Templates/ICON_Lady1-P.png" width="50" /><p>&quot;Please stay within the quotations&quot;</p></div></li></ul></div><div class="insight-section"><ul><li><div class="right-insight"><img alt="Student responding" height="50" src="http://efundi.nwu.ac.za/access/content/group/10cda5f9-d75a-4928-a31a-2f3b9a29a9de/Speech-icons-Templates/ICON_Man1-T.png" width="50" /><p>&quot;Please stay within the quotations&quot;</p></div></li></ul></div>'
+		    },		
+			
+			
+	{
+		        title:'CSS: Banner Element White - Code only', 
+		        image:'ItemIconPink.png',
+		        description:'Code only',
+		        html:'<div class="image-stripe-backgroundimg-I non-semantic-protector"><h2>&nbsp;</h2><table align="center" style="width:100%"><tbody><tr><th class="image-stripe-bigtext" style="background-color:rgba(255, 255, 255, 0.5); border-color:#ffffff; text-align:center; vertical-align:middle"><p style="text-align:center"><span><span>BannerText</span></span></p></th></tr></tbody></table><h2>&nbsp;</h2></div>'
+		    },		
+			
+		
+	{
+		        title:'CSS: Banner Element Black - Code only', 
+		        image:'ItemIconPink.png',
+		        description:'Code only',
+		        html:'<div class="image-stripe-backgroundimg-I non-semantic-protector"><h2>&nbsp;</h2><table align="center" style="width:100%"><tbody><tr><th class="image-stripe-bigtext" style="background-color:rgba(0, 0, 0, 0.5); border-color:#ffffff; text-align:center; vertical-align:middle"><p><span style="color:#ffffff">BannerText</span></p></th></tr></tbody></table><h2>&nbsp;</h2></div>'
+		    }						
+			
+			
+]});		
